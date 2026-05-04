@@ -27,7 +27,7 @@ Berikut adalah daftar requirement yang telah diimplementasikan:
 | screenshot1  | screenshot2 |
 |---|---|---|
 screenshot1 (<img width="739" height="1600" alt="WhatsApp Image 2026-05-04 at 15 33 05" src="https://github.com/user-attachments/assets/9b7c9285-6ce3-464e-b1cc-4d798f231919" />)
-screenshot2 <img (width="739" height="1600" alt="WhatsApp Image 2026-05-04 at 15 33 04" src="https://github.com/user-attachments/assets/83cd7b3f-d1ff-499b-9d74-18b69726a4d2" />)
+screenshot2 (<img width="739" height="1600" alt="WhatsApp Image 2026-05-04 at 15 33 04" src="https://github.com/user-attachments/assets/83cd7b3f-d1ff-499b-9d74-18b69726a4d2" />)
 
 
  
