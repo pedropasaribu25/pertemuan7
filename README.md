@@ -1,50 +1,49 @@
-# Welcome to your Expo app 👋
+# MyTaskList App 🚀
+Tugas Mandiri - Pengembangan Aplikasi Mobile (P01-P06)
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+## 👤 Identitas Mahasiswa
+- **Nama:** [Pedro Pasaribu]
+- **NIM:** [243303621252]
 
-## Get started
+## 📝 Deskripsi Aplikasi
+MyTaskList adalah aplikasi manajemen tugas harian sederhana yang dirancang dengan tema *Dark Mode* yang modern dan minimalis. Aplikasi ini membantu pengguna mencatat prioritas harian secara efisien agar produktivitas tetap terjaga tanpa distraksi.
 
-1. Install dependencies
+## ✅ Fitur & Requirement (P01 - P06)
+Berikut adalah daftar requirement yang telah diimplementasikan:
+- [x] **Setup & Running HP Fisik:** Berhasil dijalankan via Expo Go (Android/iOS).
+- [x] **Komponen Dasar:** Menggunakan `View`, `Text`, `TouchableOpacity`, dan `StyleSheet`.
+- [x] **Layouting:** Menggunakan Flexbox untuk header, list, dan input area.
+- [x] **State Management:** Menggunakan `useState` untuk input text dan array data task.
+- [x] **Conditional Rendering:** Menampilkan badge jumlah task dan perubahan style pada task yang selesai (*strikethrough*).
+- [x] **Form Input & Validasi:** Menggunakan `TextInput` dengan validasi agar user tidak bisa input teks kosong (Alert notification).
+- [x] **List Dinamis:** Menggunakan `FlatList` lengkap dengan `keyExtractor` dan `ListEmptyComponent` saat tugas kosong.
+- [x] **CRUD Minimal:** Fitur **Tambah Task** dan **Hapus Task** berfungsi 100%.
+- [x] **Fitur Bonus:** Fitur *Mark as Done* dengan menekan teks tugas.
 
+## 📱 Screenshot Aplikasi
+*Silakan lampirkan screenshot aplikasi yang berjalan di HP fisik lo di bawah ini:*
+
+
+| screenshot1  | screenshot2 |
+|---|---|---|
+screenshot1 (<img width="739" height="1600" alt="WhatsApp Image 2026-05-04 at 15 33 05" src="https://github.com/user-attachments/assets/9b7c9285-6ce3-464e-b1cc-4d798f231919" />)
+screenshot2 <img (width="739" height="1600" alt="WhatsApp Image 2026-05-04 at 15 33 04" src="https://github.com/user-attachments/assets/83cd7b3f-d1ff-499b-9d74-18b69726a4d2" />)
+
+
+ 
+> **Catatan:** Ganti link di atas dengan path file gambar lo (misal: `./assets/screenshot1.png`).
+
+## 🚀 Cara Menjalankan Project
+1. Clone atau download folder project ini.
+2. Buka terminal di folder project dan jalankan:
    ```bash
    npm install
    ```
-
-2. Start the app
-
+3. Jalankan aplikasi dengan perintah:
    ```bash
    npx expo start
    ```
+4. Scan **QR Code** yang muncul menggunakan aplikasi **Expo Go** di HP fisik lo.
 
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+## Link Expo Snack
+https://snack.expo.dev/@pedroopasaribu/tugas7
